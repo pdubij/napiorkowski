@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    
+}
+.web {
+    width: 100%;
+ }
+ 
+ .menu {
+    text-align: right;
+ 
+    
+ }
+
+ .button {
+    text-align: center;
+ 
+    border: 2px solid #d2a671 ;
+    border-radius: 90px / 45px;
+    width: 170px;
+    height: 35px;
+    margin-left: 35%;
+ }
+
+ .but_t {
+    margin-top: 5%;
+    font-family: "Cambria";
+    font-size: 20px;
+    color: #d2a671;  
+    text-align: left;
+ }
+
+ .logo {
+    margin-right: 15%;
+     height: 70px;
+     width: 270px;
+        
+ }
+
+ .link {
+  
+    margin: 20px;
+    text-decoration: none;
+    font-display: "Georgia";
+    font-size: 23px;
+    color: white;
+   
+ }
+
+ .link_home{ 
+    margin: 20px;
+    text-decoration: none;
+    font-display: "Georgia";
+    font-size: 23px;
+    color: rgb(189, 159, 61);
+  
+ }
+ .main {
+     background:  linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ),
+      url(makeover-i.png);
+     background-attachment: fixed;
+     background-position: center center;
+     background-size: 100%;
+     background-repeat: no-repeat;
+     height: 80vh;
+ 
+ }
+
+ .people{
+     background: white;
+     height:  110vh;
+     width: 100%;
+    
+     display: flex;
+     flex-direction: wrap;
+    
+ }
+
+ .people__in {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 7%;
+    margin-right: 10px;
+    width:50%;    
+
+ }
+
+ .people_zd{
+     width: 40%;
+     margin-top: 4%;
+     display: inline-block;
+
+ }
+
+ .man {
+    margin-bottom: 25%;
+    margin-right: 15%;    
+    outline: 3px dashed rgb(92, 111, 124);
+    outline-offset: -10px;
+    }
+
+ .wo {
+     margin-top:1%;
+     margin-left: 25%;
+     outline: 3px dashed rgb(92, 111, 124);
+     outline-offset: -10px;
+ }
+
+ .wt{
+     margin-top: 5%;
+     margin-left: 15%;
+     outline: 3px dashed rgb(92, 111, 124);
+     outline-offset: -10px;
+ }
+ .offer {
+    background: #f5f3ef;
+    height:  100vh;
+    width: 100%;
+ }
+
+ .top {
+    margin-right: 10%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: wrap;
+    
+    
+ }
+
+ .kolo{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2a671;
+    position: absolute;
+    z-index: 1;
+    margin-left: 8%;
+ }
+
+ 
+
+ .k {
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #000000;
+    font-size: 1.5rem;
+ }
+ .top_in{
+    text-align: center;
+    width:30%;
+    margin: 10px;
+    height: 300px;
+    
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+ }
+ 
+ .top_img {
+    margin-top: 10%;
+    width:auto;
+    height: auto;
+    display:flex;
+
+ }
+.intro {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 20%;
+    position: absolute;
+   
+}
+
+h1 {
+    text-align: center;
+    color:#f1f0ed;
+    font-family: "Arbil Fatface";
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0 10px 10px #131313;
+
+}
+
+h2 {
+    text-align: center;
+    color:#d2a671;
+    font-family: "French Script MT";
+    font-size: 70px;
+
+  
+}
+h3 {
+    margin-top: 5%;
+    font-family: "Stencil Std";
+    font-size: 25px;
+    color: black;   
+
+}
+
+h4 {
+    color:#131313;
+    font-family: "Windsong";
+    text-align: center;
+    font-size: 50px;
+}
+
+h5 {
+    margin-top: 5%;
+    font-family: "Cambria";
+    font-size: 20px;
+    color: #d2a671;  
+    text-align: left;
+}
+h6{
+    font-family: "Cambria";
+    font-size: 20px;
+    color: #77726d;  
+    text-align: left;
+    text-align: center;
+    margin-right: 15%;
+    margin-left:15%;
+}
+.napior {
+    margin-top: 15%;
+    text-align: center;
+    color:#d2a671;
+    font-family: "French Script MT";
+    font-size: 70px;
+}
+
+.sha {
+    color:#131313;
+    font-family: "Windsong";
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0 10px 10px #131313;
+}
+.p_g {
+    color: #c1beba;
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+}
+p {
+    text-align: center;
+    color: white;   
+    padding: 10%;
+    font-size: 20px;
+}
+
+footer{
+    background: #2e2c2c;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: wrap;
+}
+ 
+.footer__fb {
+    text-align: left;
+    margin-left: 10%;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+}
+
+.adres {
+    width: 50%;
+    margin-right: 5%;
+    text-align: right;  
+    color: white;
+    font-size: 20px;
+}
+a {
+    margin-left: 2%;
+    text-decoration: none;
+}
